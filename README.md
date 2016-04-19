@@ -10,6 +10,14 @@ Requirements
 
 * CakePHP 3.0+
 
+How to use?
+-----------
+
+Check the official documentation on how to use data types:
+
+* http://book.cakephp.org/3.0/en/orm/saving-data.html#saving-complex-types
+* http://book.cakephp.org/3.0/en/orm/database-basics.html#adding-custom-database-types
+
 Support
 -------
 
