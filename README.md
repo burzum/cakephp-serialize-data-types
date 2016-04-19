@@ -6,6 +6,8 @@ CakePHP serialize-able Data Types
 [![Build Status](https://img.shields.io/coveralls/burzum/cakephp-serialize-data-types/master.svg?style=flat-square)](https://coveralls.io/r/burzum/cakephp-serialize-data-types)
 [![Code Quality](https://img.shields.io/scrutinizer/g/burzum/cakephp-serialize-data-types/master.svg?style=flat-square)](https://coveralls.io/r/burzum/cakephp-serialize-data-types)
 
+The plugin will add two data types that will allow you to store serialized data in your database.
+
 Requirements
 ------------
 
