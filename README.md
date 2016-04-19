@@ -4,6 +4,7 @@ CakePHP serialize-able Data Types
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
 [![Build Status](https://img.shields.io/travis/burzum/cakephp-serialize-data-types/master.svg?style=flat-square)](https://travis-ci.org/burzum/cakephp-serialize-data-types)
 [![Build Status](https://img.shields.io/coveralls/burzum/cakephp-serialize-data-types/master.svg?style=flat-square)](https://coveralls.io/r/burzum/cakephp-serialize-data-types)
+[![Code Quality](https://img.shields.io/scrutinizer/g/burzum/cakephp-serialize-data-types/master.svg?style=flat-square)](https://coveralls.io/r/burzum/cakephp-serialize-data-types)
 
 Requirements
 ------------
