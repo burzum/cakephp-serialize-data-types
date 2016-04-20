@@ -1,7 +1,7 @@
 {
 	"name": "burzum/cakephp-serialize-data-types",
 	"type": "cakephp-plugin",
-	"description": "This plugin is a set of tools for user handling like registration, login, email verification, password reset and much more.",
+	"description": "Serialize-able data types for the CakePHP ORM",
 	"keywords": ["json", "serialize", "data type", "ORM", "database"],
 	"homepage": "http://github.com/burzum/cakephp-serialize-data-types",
 	"license": "MIT",
