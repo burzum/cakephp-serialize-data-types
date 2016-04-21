@@ -6,7 +6,10 @@ CakePHP serialize-able Data Types
 [![Build Status](https://img.shields.io/coveralls/burzum/cakephp-serialize-data-types/master.svg?style=flat-square)](https://coveralls.io/r/burzum/cakephp-serialize-data-types)
 [![Code Quality](https://img.shields.io/scrutinizer/g/burzum/cakephp-serialize-data-types/master.svg?style=flat-square)](https://coveralls.io/r/burzum/cakephp-serialize-data-types)
 
-The plugin will add two data types that will allow you to store serialized data in your database.
+> Serialization is the process of converting an object into a stream of bytes in order to store the object or transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed. The reverse process is called deserialization.
+
+The plugin will add data types that will allow you to store serialized data in your database.
+
 
 Requirements
 ------------
@@ -20,6 +23,18 @@ Check the official documentation on how to use data types:
 
 * http://book.cakephp.org/3.0/en/orm/saving-data.html#saving-complex-types
 * http://book.cakephp.org/3.0/en/orm/database-basics.html#adding-custom-database-types
+
+Serializeable Data Types
+------------------------
+
+The following types are included in this plugin:
+
+* **Json** (using [json_decode](http://php.net/manual/en/function.json-decode.php) and [json_encode](http://php.net/manual/en/function.json-encode.php))
+* **Serialize** (using [serialize](http://php.net/manual/en/function.serialize.php) and [unserialize](http://php.net/manual/en/function.unserialize.php))
+
+Please notice [this security warning from the official php documentation](http://php.net/manual/en/function.unserialize.php) when using the Serialize data type:
+
+> Do not pass untrusted user input to unserialize(). Unserialization can result in code being loaded and executed due to object instantiation and autoloading, and a malicious user may be able to exploit this. Use a safe, standard data interchange format such as JSON (via json_decode() and json_encode()) if you need to pass serialized data to the user.
 
 Support
 -------
